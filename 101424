@@ -1,1 +1,8 @@
+%p (stands for pointer) returns address.
+The s[] parameter in capitalize function has no size information. It stores the address of input array.
 
+sizeof(s) = 8, because addresses are 8-bytes long.
+
+gdb ./run
+info args
+x/50bc 0x7ffffffd04a : prints out the memory
