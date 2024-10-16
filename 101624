@@ -1,1 +1,4 @@
+Address of 0 means invalid, nothing, so is reserved(=null/=0)
+assert(checks the content) and continues if true, but crashes if false
+
 
