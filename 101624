@@ -1,4 +1,6 @@
 Address of 0 means invalid, nothing, so is reserved(=null/=0)
 assert(checks the content) and continues if true, but crashes if false
 
+char* pnum = &num; (giving an adress of a variable)
 
+char num2 = *pnum; (dereferencing the address: go to the address and fetch the value)
