@@ -1,0 +1,7 @@
+%d involves signs.
+%u converts into 4 byte character.
+
+Hasing: Q) passwords are converted to some random fingerprints by hashing, dehashing backwards is harder. → one-way function
+→is it why systems let us set new passwords instead of showing the current password when we forget them?
+
+MD5 is not really a hash function, SHA256 is still unbroken currently.
